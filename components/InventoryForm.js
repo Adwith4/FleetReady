@@ -5,11 +5,32 @@ import { useInventory } from '@/context/InventoryContext';
 
 // Sample inventory items - replace with your actual items
 const inventoryItems = [
-  { id: 1, name: 'axe' },
-  { id: 2, name: 'extinguisher' },
-  { id: 3, name: 'first aid kit' },
-  // Add more items as needed
-];
+    { id: 1, name: 'axe' },
+    { id: 2, name: 'extinguisher' },
+    { id: 3, name: 'first aid kit' },
+    { id: 4, name: 'oxygen tank' },
+    { id: 5, name: 'defibrillator' },
+    { id: 6, name: 'stretcher' },
+    { id: 7, name: 'backboard' },
+    { id: 8, name: 'bandages' },
+    { id: 9, name: 'tourniquet' },
+    { id: 10, name: 'flashlight' },
+    { id: 11, name: 'radio' },
+    { id: 12, name: 'gloves' },
+    { id: 13, name: 'mask' },
+    { id: 14, name: 'blanket' },
+    { id: 15, name: 'splint' },
+    { id: 16, name: 'cervical collar' },
+    { id: 17, name: 'trauma shears' },
+    { id: 18, name: 'stethoscope' },
+    { id: 19, name: 'blood pressure cuff' },
+    { id: 20, name: 'ladder' },
+    { id: 21, name: 'rope' },
+    { id: 22, name: 'helmet' },
+    { id: 23, name: 'hose' },
+    { id: 24, name: 'jaws of life' },
+    { id: 25, name: 'thermal camera' }
+  ];
 
 export default function InventoryForm() {
   const [selectedItem, setSelectedItem] = useState('');
